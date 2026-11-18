@@ -1,7 +1,6 @@
 # Roteiro do teste com usuários (SERS)
 
 **Meta:** pelo menos 5 participantes do público (jovens em primeiro emprego, alugando ou querendo alugar).
-**Duração:** uns 10 minutos por pessoa. **Não peça nem anote** nome completo, CPF, telefone, e-mail ou endereço.
 
 ## Antes
 - Explique em uma frase: "É um assistente que ajuda a entender e reduzir a conta de luz. Os valores são estimativas."
