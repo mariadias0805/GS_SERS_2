@@ -67,6 +67,16 @@ Assistente em linha de comando que orienta jovens sobre documentos (CTPS, CPF, t
 
 Python 3 (somente biblioteca padrão: `json`, `csv`, `os`, `time`, `copy`, `unittest`).
 
+
+## Uso de IA generativa
+Usamos IA como apoio para organizar e programar, e verificamos dados, cálculos, fontes e recomendações.
+
+
+
+python main_sers.py
+python -m unittest discover -s testes/sers -v
+
+
 ## Estrutura de pastas
 
 ```
@@ -90,8 +100,4 @@ GS_SERS/
 ├── orientacao.py
 └── requirements.txt     
 
-## Uso de IA generativa
-Usamos IA como apoio para organizar e programar, e verificamos dados, cálculos, fontes e recomendações.
 
-python main_sers.py
-python -m unittest discover -s testes/sers -v
