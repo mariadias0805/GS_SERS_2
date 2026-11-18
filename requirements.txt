@@ -1,0 +1,2 @@
+# O projeto usa apenas a biblioteca padrão do Python (3.9 ou mais novo).
+# Não é preciso instalar nada com pip.
