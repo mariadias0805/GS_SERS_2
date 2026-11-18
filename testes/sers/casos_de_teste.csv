@@ -1,0 +1,21 @@
+id,pergunta,id_esperado,tipo,criterio_de_aprovacao
+T01,Como posso reduzir meu consumo de energia?,101,texto livre,Orientação 101 é a mais pontuada
+T02,Quanto determinado equipamento consome por mês?,106,texto livre,Orientação 106 é a mais pontuada
+T03,Quanto o chuveiro consome?,102,texto livre,Orientação 102 é a mais pontuada
+T04,Vale a pena substituir uma lâmpada por LED?,103,texto livre,Orientação 103 é a mais pontuada
+T05,A energia solar pode ser uma alternativa para essa necessidade?,105,texto livre,Orientação 105 é a mais pontuada
+T06,Qual opção apresenta melhor custo-benefício?,104,texto livre,Orientação 104 é a mais pontuada
+T07,Posso instalar painel solar no apartamento alugado?,110,texto livre,Orientação 110 é a mais pontuada
+T08,O que é bandeira amarela?,109,texto livre,Orientação 109 é a mais pontuada
+T09,Quanto de CO2 eu evito economizando energia?,107,texto livre,Orientação 107 é a mais pontuada
+T10,De onde vêm os dados que vocês usam?,108,texto livre,Orientação 108 é a mais pontuada
+T11,Quanto a geladeira gasta por mês?,106,texto livre,Orientação 106 é a mais pontuada
+T12,Quanto custa o kWh?,109,texto livre,Orientação 109 é a mais pontuada
+T13,Como funciona energia solar por assinatura?,105,texto livre,Orientação 105 é a mais pontuada
+T14,Quanto gasto de energia com a TV?,106,texto livre,Orientação 106 é a mais pontuada
+R01,Como regularizar o CPF?,2,regressão (projeto original),A pergunta do projeto de Python continua funcionando
+R02,Quero saber sobre FGTS,9,regressão (projeto original),A pergunta do projeto de Python continua funcionando
+R03,Como emitir a carteira de trabalho?,1,regressão (projeto original),A pergunta do projeto de Python continua funcionando
+S01,Qual a previsão do tempo para amanhã?,NENHUM,sem correspondência,Pontuação menor que 3 (assistente diz que não encontrou)
+S02,Receita de bolo de cenoura,NENHUM,sem correspondência,Pontuação menor que 3 (assistente diz que não encontrou)
+S03,olá,NENHUM,sem correspondência,Pontuação menor que 3 (assistente diz que não encontrou)

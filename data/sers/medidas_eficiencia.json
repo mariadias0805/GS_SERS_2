@@ -1,0 +1,25 @@
+{
+  "_leia_me": "Medidas da Alternativa A (eficiência energética). Cada medida muda UM parâmetro de UM equipamento do cenário-base. Nenhum preço de produto foi inventado: o assistente calcula o preço-limite para a troca se pagar em 12 meses.",
+  "medidas": [
+    {
+      "id": "banho_10min",
+      "equipamento_id": "chuveiro",
+      "titulo": "Reduzir o banho de 15 para 10 minutos por dia",
+      "campo": "minutos_dia",
+      "valor_novo": 10,
+      "custo_investimento_reais": 0.0,
+      "fonte": "Cartilha CEMIG (2014): 'um bom banho não necessita mais que dez minutos'.",
+      "observacao": "Muda um hábito: existe pequena perda de conforto. Não exige compra."
+    },
+    {
+      "id": "led_8w",
+      "equipamento_id": "lampadas",
+      "titulo": "Trocar as 4 lâmpadas fluorescentes compactas de 15 W por LED de 8 W",
+      "campo": "potencia_w",
+      "valor_novo": 8,
+      "custo_investimento_reais": null,
+      "fonte": "Cartilha CEMIG (2014), tabela de consumo: fluorescente compacta 15 W e LED 8 W. Confira os lumens na embalagem para manter a mesma iluminação.",
+      "observacao": "O preço das lâmpadas depende da loja. O grupo deve pesquisar e informar. Enquanto isso o assistente mostra o preço-limite."
+    }
+  ]
+}

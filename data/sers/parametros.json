@@ -1,0 +1,85 @@
+{
+  "_leia_me": "Todos os números usados nos cálculos de SERS ficam neste arquivo. Cada item tem valor, unidade, status (oficial / secundária / estimativa / assumido), fonte e data de consulta. Se um valor mudar (ex.: nova tarifa), basta editar aqui e rodar os testes de novo.",
+  "contexto": {
+    "distribuidora": "Enel Distribuição São Paulo (Enel SP)",
+    "data_consulta": "2026-11-17",
+    "horizonte_meses": 12,
+    "dias_por_mes": 30
+  },
+  "tarifa": {
+    "tusd_r_mwh": {
+      "valor": 472.42, "unidade": "R$/MWh", "status": "oficial",
+      "fonte": "ANEEL, Resolução Homologatória 3.596/2026 (vigente desde 04/07/2026); tabela publicada pela Enel SP em https://www.enel.com.br/pt-saopaulo/Para_Voce/tarifa-energia-eletrica.html",
+      "consulta": "2026-11-17"
+    },
+    "te_r_mwh": {
+      "valor": 316.96, "unidade": "R$/MWh", "status": "oficial",
+      "fonte": "ANEEL, Resolução Homologatória 3.596/2026; Enel SP (mesma página da TUSD). Tarifa B1 residencial convencional.",
+      "consulta": "2026-11-17"
+    },
+    "bandeira_vigente": {
+      "valor": "verde", "unidade": "bandeira", "status": "oficial",
+      "fonte": "ANEEL manteve a bandeira verde em novembro/2026 (anúncio de 30/10/2026, Agência Brasil: https://imirante.com/noticias/brasil/2026/10/30/aneel-mantem-bandeira-tarifaria-verde-novembro)",
+      "consulta": "2026-11-17"
+    },
+    "bandeiras_acrescimo_r_100kwh": {
+      "valor": {"verde": 0.0, "amarela": 1.885, "vermelha1": 4.463, "vermelha2": 7.877},
+      "unidade": "R$ por 100 kWh", "status": "oficial",
+      "fonte": "Valores citados em reportagens de out/2026 sobre a bandeira de novembro (SBT News: https://sbtnews.sbt.com.br/noticia/economia/aneel-mantem-bandeira-verde-na-conta-de-luz-em-novembro). Conferir no site da ANEEL.",
+      "consulta": "2026-11-17"
+    }
+  },
+  "tributos": {
+    "icms_faixas_sp": {
+      "valor": [
+        {"ate_kwh": 90, "aliquota": 0.0},
+        {"ate_kwh": 200, "aliquota": 0.12},
+        {"ate_kwh": 999999, "aliquota": 0.18}
+      ],
+      "unidade": "alíquota por faixa do consumo mensal total da conta", "status": "secundária",
+      "fonte": "Isenção até 90 kWh: Lei estadual SP 12.185/2006 (https://www.al.sp.gov.br/repositorio/legislacao/lei/2006/lei-12185-05.01.2006.html). 12% entre 91 e 200 kWh: NetCPA (https://netcpa.com.br/colunas/contas-de-energia-sofrem-queda-no-preco-devido-a-diminuicao-do-icms-pelo-governo-federal/14697). 18% acima de 200 kWh: Teletime, 27/06/2022 (https://teletime.com.br/27/06/2022/sao-paulo-reduz-icms-sobre-telecom-energia-e-combustiveis-para-18/). CONFERIR na linha de ICMS da conta real.",
+      "consulta": "2026-11-17"
+    },
+    "pis_cofins": {
+      "valor": 0.045, "unidade": "fração do valor da conta", "status": "estimativa",
+      "fonte": "Varia todo mês. Em três faturas residenciais de março/2026 (de outra distribuidora, publicadas no portal da Câmara dos Deputados) o PIS/COFINS ficou entre 4,1% e 4,5% do valor. Usamos 4,5%. CONFERIR na conta real.",
+      "consulta": "2026-11-17"
+    },
+    "cosip_reais": {
+      "valor": 0.0, "unidade": "R$/mês", "status": "assumido",
+      "fonte": "A contribuição de iluminação pública é municipal e igual em todas as alternativas, então não muda a comparação. Ficou em zero. Some o valor da sua conta se quiser o total.",
+      "consulta": "2026-11-17"
+    }
+  },
+  "ligacao": {
+    "tipo": {
+      "valor": "bifasico", "unidade": "monofasico, bifasico ou trifasico", "status": "assumido",
+      "fonte": "Assumimos bifásico porque o chuveiro de 4500 W costuma ser ligado em 220 V. Veja o tipo de fornecimento na sua conta.",
+      "consulta": "2026-11-17"
+    },
+    "custo_disponibilidade_kwh": {
+      "valor": {"monofasico": 30, "bifasico": 50, "trifasico": 100}, "unidade": "kWh/mês", "status": "oficial",
+      "fonte": "ANEEL, Resolução Normativa 1.000/2021 (consumo mínimo faturado, o 'custo de disponibilidade'): https://www.gov.br/aneel",
+      "consulta": "2026-11-17"
+    }
+  },
+  "assinatura_solar": {
+    "desconto_cenarios": {
+      "valor": [0.05, 0.10, 0.15, 0.20], "unidade": "fração", "status": "estimativa",
+      "fonte": "A Folha Vitória cita desconto médio de 10% a 20% na energia por assinatura (https://www.folhavitoria.com.br/economia/energia-alugada-reduz-conta-em-20; a data da reportagem não foi confirmada, o grupo deve conferir). Uma oferta divulgada em 10/2026 anuncia 15% (https://www.em.com.br/mundo-corporativo/2026/10/7526277-energia-solar-por-assinatura-e-confiavel-veja-como-funciona.html). O valor de 5% é um cenário pessimista criado pelo grupo, sem fonte. O desconto REAL depende do contrato.",
+      "consulta": "2026-11-17"
+    },
+    "desconto_base": {
+      "valor": 0.10, "unidade": "fração", "status": "estimativa",
+      "fonte": "Escolhemos o extremo mais baixo da faixa citada (10%) como caso-base, por prudência. É o desconto líquido, já considerando tudo que continua vindo na conta da distribuidora.",
+      "consulta": "2026-11-17"
+    }
+  },
+  "ambiental": {
+    "fator_emissao_kg_co2_kwh": {
+      "valor": 0.0385, "unidade": "kg CO2/kWh", "status": "secundária",
+      "fonte": "MCTI: média do SIN em 2023 = 38,5 kg CO2/MWh (reportado em https://eixos.com.br/brasil-tem-menor-taxa-de-emissao-de-carbono-na-geracao-eletrica-em-onze-anos/). Em 2025 os fatores mensais ficaram entre 21,5 e 28,9 kg/MWh (jan-abr, MCTI). Usamos o valor mais alto, o de 2023.",
+      "consulta": "2026-11-17"
+    }
+  }
+}

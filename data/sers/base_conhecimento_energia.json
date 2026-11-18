@@ -1,0 +1,323 @@
+[
+  {
+    "id": 101,
+    "categoria": "Energia e Sustentabilidade",
+    "titulo": "Como está a conta de luz de um apartamento alugado (cenário-base)",
+    "palavras_chave": [
+      "conta de luz",
+      "conta de energia",
+      "minha conta",
+      "valor da conta",
+      "quanto pago de luz",
+      "gasto com luz",
+      "gasto de energia",
+      "consumo de energia",
+      "consumo mensal",
+      "reduzir meu consumo",
+      "reduzir consumo",
+      "reduzir minha conta",
+      "diminuir conta",
+      "economizar energia",
+      "economizar luz",
+      "economia de energia",
+      "kwh"
+    ],
+    "resposta": "Veja quanto consome e quanto custa a energia de um jovem que mora sozinho em apartamento alugado e onde dá para economizar.",
+    "documentos": [
+      "Sua conta de luz mais recente (consumo em kWh)",
+      "Tipo de ligação (monofásica, bifásica ou trifásica), que aparece na conta"
+    ],
+    "onde": "Conta de luz da Enel SP e site da ANEEL (gov.br/aneel)",
+    "fonte": "https://www.enel.com.br/pt-saopaulo/Para_Voce/tarifa-energia-eletrica.html (tarifa homologada pela ANEEL, REH 3.596/2026)",
+    "verificado_em": "2026-11-17",
+    "calculo": "cenario_base",
+    "limitacoes": [
+      "Cenário-base ESTIMADO: 1 morador, apartamento pequeno alugado, área da Enel SP. Seus hábitos e sua conta real podem ser bem diferentes.",
+      "Os valores são estimativas, não garantia de economia. Mudam com tarifa, bandeira, consumo e contrato."
+    ]
+  },
+  {
+    "id": 102,
+    "categoria": "Energia e Sustentabilidade",
+    "titulo": "Quanto o chuveiro elétrico consome e como reduzir",
+    "palavras_chave": [
+      "chuveiro",
+      "banho",
+      "ducha",
+      "chuveiro eletrico",
+      "banho quente",
+      "posicao verao"
+    ],
+    "resposta": "O chuveiro elétrico costuma ser o equipamento que mais pesa na conta de quem mora sozinho.",
+    "documentos": [
+      "Potência do chuveiro (em watts, na etiqueta)",
+      "Tempo médio de banho"
+    ],
+    "onde": "Etiqueta do chuveiro e Cartilha CEMIG 'Guia do melhor consumo'",
+    "fonte": "Cartilha CEMIG 'Guia do melhor consumo' (2014): https://portal.trt3.jus.br/internet/institucional/responsabilidade-socioambiental/download/voce-pode-fazer/GUIA_MELHOR_CONSUMO_CARTILHA_CEMIG.pdf",
+    "verificado_em": "2026-11-17",
+    "calculo": "chuveiro",
+    "limitacoes": [
+      "Cenário-base ESTIMADO: 1 morador, apartamento pequeno alugado, área da Enel SP. Seus hábitos e sua conta real podem ser bem diferentes.",
+      "Os valores são estimativas, não garantia de economia. Mudam com tarifa, bandeira, consumo e contrato.",
+      "O tempo de banho (15 min) é premissa do grupo. A economia depende de mudar o hábito."
+    ]
+  },
+  {
+    "id": 103,
+    "categoria": "Energia e Sustentabilidade",
+    "titulo": "Vale a pena trocar lâmpadas por LED",
+    "palavras_chave": [
+      "led",
+      "lampada led",
+      "lampada",
+      "lampadas",
+      "iluminacao",
+      "trocar lampada",
+      "fluorescente",
+      "incandescente"
+    ],
+    "resposta": "Trocar lâmpadas é uma das medidas mais simples de eficiência energética, mas só compensa se o preço for razoável.",
+    "documentos": [
+      "Potência e lumens das lâmpadas atuais",
+      "Preço do LED na loja"
+    ],
+    "onde": "Embalagem das lâmpadas e lojas de material elétrico",
+    "fonte": "Cartilha CEMIG 'Guia do melhor consumo' (2014), tabela de consumo de eletrodomésticos",
+    "verificado_em": "2026-11-17",
+    "calculo": "led",
+    "limitacoes": [
+      "Cenário-base ESTIMADO: 1 morador, apartamento pequeno alugado, área da Enel SP. Seus hábitos e sua conta real podem ser bem diferentes.",
+      "Os valores são estimativas, não garantia de economia. Mudam com tarifa, bandeira, consumo e contrato.",
+      "Nenhum preço de lâmpada foi inventado: o cálculo mostra o preço-limite de 12 meses."
+    ]
+  },
+  {
+    "id": 104,
+    "categoria": "Energia e Sustentabilidade",
+    "titulo": "Qual alternativa tem melhor custo-benefício: eficiência ou energia solar",
+    "palavras_chave": [
+      "custo beneficio",
+      "compensa",
+      "vale a pena",
+      "qual opcao",
+      "qual alternativa",
+      "alternativa",
+      "comparar",
+      "comparacao",
+      "melhor opcao",
+      "o que e melhor",
+      "qual economiza mais",
+      "substituir equipamento"
+    ],
+    "resposta": "Comparação de duas alternativas para a mesma necessidade (os mesmos serviços de energia), no mesmo período de 12 meses.",
+    "documentos": [
+      "Consumo mensal da sua conta (kWh)",
+      "Proposta e contrato da empresa de energia por assinatura, se houver"
+    ],
+    "onde": "docs/sers/02_calculos_e_comparacao.md deste projeto e site da ANEEL",
+    "fonte": "Cálculos do grupo em sers/calculos.py com dados de data/sers/parametros.json (fontes citadas em docs/sers/04_fontes_e_referencias.md)",
+    "verificado_em": "2026-11-17",
+    "calculo": "comparacao",
+    "limitacoes": [
+      "Cenário-base ESTIMADO: 1 morador, apartamento pequeno alugado, área da Enel SP. Seus hábitos e sua conta real podem ser bem diferentes.",
+      "Os valores são estimativas, não garantia de economia. Mudam com tarifa, bandeira, consumo e contrato.",
+      "O desconto da assinatura solar vem de ofertas divulgadas no mercado e de uma reportagem; o contrato real pode ser diferente.",
+      "O modelo da assinatura é simplificado e não reproduz todas as regras de ICMS e do Fio B da Lei 14.300."
+    ]
+  },
+  {
+    "id": 105,
+    "categoria": "Energia e Sustentabilidade",
+    "titulo": "Energia solar por assinatura: como funciona e se serve para quem aluga",
+    "palavras_chave": [
+      "energia solar",
+      "solar",
+      "assinatura",
+      "assinatura solar",
+      "energia renovavel",
+      "fonte renovavel",
+      "renovavel",
+      "geracao compartilhada",
+      "usina solar",
+      "creditos de energia"
+    ],
+    "resposta": "A energia solar por assinatura é a forma de usar fonte renovável sem instalar nada no imóvel alugado.",
+    "documentos": [
+      "Conta de luz no seu nome",
+      "Contrato e proposta da empresa",
+      "Consumo médio mensal em kWh"
+    ],
+    "onde": "Empresa de energia por assinatura (verifique se a usina é regularizada) e site da ANEEL",
+    "fonte": "Lei 14.300/2022 (geração distribuída); reportagens do setor consultadas em 17/11/2026, listadas em docs/sers/04_fontes_e_referencias.md",
+    "verificado_em": "2026-11-17",
+    "calculo": "assinatura",
+    "limitacoes": [
+      "Cenário-base ESTIMADO: 1 morador, apartamento pequeno alugado, área da Enel SP. Seus hábitos e sua conta real podem ser bem diferentes.",
+      "Os valores são estimativas, não garantia de economia. Mudam com tarifa, bandeira, consumo e contrato.",
+      "As regras da geração compartilhada estão em discussão na ANEEL em 2026.",
+      "O desconto líquido real só se confirma no contrato e na fatura."
+    ]
+  },
+  {
+    "id": 106,
+    "categoria": "Energia e Sustentabilidade",
+    "titulo": "Como calcular quanto um equipamento consome por mês (fórmula e tabela)",
+    "palavras_chave": [
+      "consome por mes",
+      "quanto gasta",
+      "equipamento",
+      "aparelho",
+      "eletrodomestico",
+      "calcular consumo",
+      "calcular o consumo",
+      "formula",
+      "potencia",
+      "watts",
+      "geladeira",
+      "televisao",
+      "tv",
+      "ventilador",
+      "notebook",
+      "microondas",
+      "micro ondas",
+      "maquina de lavar"
+    ],
+    "resposta": "A energia de um aparelho depende da potência e do tempo de uso. Veja a fórmula e o consumo dos equipamentos do cenário-base.",
+    "documentos": [
+      "Potência do aparelho em watts (etiqueta)",
+      "Tempo de uso por dia"
+    ],
+    "onde": "Etiqueta do aparelho e tabela da Cartilha CEMIG",
+    "fonte": "Cartilha CEMIG 'Guia do melhor consumo' (2014)",
+    "verificado_em": "2026-11-17",
+    "calculo": "formula",
+    "limitacoes": [
+      "Cenário-base ESTIMADO: 1 morador, apartamento pequeno alugado, área da Enel SP. Seus hábitos e sua conta real podem ser bem diferentes.",
+      "Os valores são estimativas, não garantia de economia. Mudam com tarifa, bandeira, consumo e contrato."
+    ]
+  },
+  {
+    "id": 107,
+    "categoria": "Energia e Sustentabilidade",
+    "titulo": "Impacto ambiental de economizar energia (CO2)",
+    "palavras_chave": [
+      "co2",
+      "carbono",
+      "emissao",
+      "emissoes",
+      "impacto ambiental",
+      "meio ambiente",
+      "sustentavel",
+      "sustentabilidade",
+      "gases de efeito estufa",
+      "pegada"
+    ],
+    "resposta": "Veja quanto de CO2 as alternativas evitam e por que os números são pequenos no Brasil.",
+    "documentos": [
+      "Consumo mensal em kWh"
+    ],
+    "onde": "Site do MCTI (fatores de emissão do sistema elétrico)",
+    "fonte": "MCTI, fator médio do SIN 2023 (38,5 kg CO2/MWh), conforme https://eixos.com.br/brasil-tem-menor-taxa-de-emissao-de-carbono-na-geracao-eletrica-em-onze-anos/",
+    "verificado_em": "2026-11-17",
+    "calculo": "co2",
+    "limitacoes": [
+      "Cenário-base ESTIMADO: 1 morador, apartamento pequeno alugado, área da Enel SP. Seus hábitos e sua conta real podem ser bem diferentes.",
+      "Os valores são estimativas, não garantia de economia. Mudam com tarifa, bandeira, consumo e contrato.",
+      "Fator de emissão de fonte secundária (reportagem sobre dados do MCTI).",
+      "A contabilização de CO2 da assinatura solar depende do método usado."
+    ]
+  },
+  {
+    "id": 108,
+    "categoria": "Energia e Sustentabilidade",
+    "titulo": "De onde vêm os dados e quais são as limitações desta análise",
+    "palavras_chave": [
+      "fonte",
+      "fontes",
+      "referencia",
+      "referencias",
+      "limitacao",
+      "limitacoes",
+      "garantia",
+      "garantido",
+      "de onde vem",
+      "dados usados",
+      "premissas",
+      "confiavel"
+    ],
+    "resposta": "Lista dos dados usados nas contas, a origem de cada um e o que é estimativa.",
+    "documentos": [
+      "Nada além desta tela. Os arquivos completos estão em data/sers/ e docs/sers/"
+    ],
+    "onde": "data/sers/parametros.json e docs/sers/04_fontes_e_referencias.md",
+    "fonte": "Ver lista abaixo",
+    "verificado_em": "2026-11-17",
+    "calculo": "fontes",
+    "limitacoes": [
+      "Itens marcados como 'estimativa' ou 'assumido' não vêm de fonte oficial e devem ser trocados pelos dados da sua conta."
+    ]
+  },
+  {
+    "id": 109,
+    "categoria": "Energia e Sustentabilidade",
+    "titulo": "Bandeira tarifária e preço do kWh: quanto pesam na conta",
+    "palavras_chave": [
+      "bandeira",
+      "bandeiras",
+      "bandeira tarifaria",
+      "bandeira amarela",
+      "bandeira vermelha",
+      "bandeira verde",
+      "tarifa",
+      "tarifa de energia",
+      "preco do kwh",
+      "valor do kwh",
+      "custo do kwh",
+      "custa o kwh",
+      "quanto custa o kwh"
+    ],
+    "resposta": "A conta tem o preço do kWh da distribuidora e, em meses de energia mais cara, o adicional da bandeira.",
+    "documentos": [
+      "Sua conta de luz (veja a bandeira do mês)"
+    ],
+    "onde": "Site da ANEEL (bandeiras tarifárias) e conta da Enel SP",
+    "fonte": "ANEEL, REH 3.596/2026 (tarifa) e anúncio de 30/10/2026 (bandeira de novembro)",
+    "verificado_em": "2026-11-17",
+    "calculo": "bandeiras",
+    "limitacoes": [
+      "Cenário-base ESTIMADO: 1 morador, apartamento pequeno alugado, área da Enel SP. Seus hábitos e sua conta real podem ser bem diferentes.",
+      "Os valores são estimativas, não garantia de economia. Mudam com tarifa, bandeira, consumo e contrato."
+    ]
+  },
+  {
+    "id": 110,
+    "categoria": "Energia e Sustentabilidade",
+    "titulo": "Posso instalar painel solar no apartamento alugado",
+    "palavras_chave": [
+      "painel solar",
+      "instalar painel",
+      "placa solar",
+      "aquecedor solar",
+      "inquilino",
+      "alugado",
+      "aluguel",
+      "proprietario",
+      "locador",
+      "condominio",
+      "autorizacao"
+    ],
+    "resposta": "Quem aluga normalmente não pode mexer no imóvel sem autorização. Veja o que isso muda para a energia solar.",
+    "documentos": [
+      "Contrato de aluguel",
+      "Autorização por escrito do proprietário, se houver instalação"
+    ],
+    "onde": "Proprietário/imobiliária, condomínio e Lei do Inquilinato (Lei 8.245/1991)",
+    "fonte": "Lei 8.245/1991, art. 23: https://www.planalto.gov.br/ccivil_03/leis/l8245.htm",
+    "verificado_em": "2026-11-17",
+    "calculo": "locacao",
+    "limitacoes": [
+      "Orientação geral, não é aconselhamento jurídico. Leia o seu contrato."
+    ]
+  }
+]

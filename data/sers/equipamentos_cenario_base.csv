@@ -1,0 +1,10 @@
+id,equipamento,quantidade,potencia_w,minutos_dia,dias_mes,kwh_mes_direto,status,fonte_potencia,observacao
+geladeira,Geladeira 1 porta frost free,1,80,,,30.0,tabela,Cartilha CEMIG 'Guia do melhor consumo' (2014): 80 W e 30 kWh por mês,Consumo mensal direto da tabela (o compressor liga e desliga)
+chuveiro,Chuveiro elétrico 4500 W,1,4500,15,30,,estimativa,Cartilha CEMIG: chuveiro 4500 W,Potência da tabela; 15 min/dia é premissa do grupo (1 morador)
+tv,TV LED 32 pol,1,95,300,30,,estimativa,Cartilha CEMIG: TV LED 32 pol 95 W,5 h/dia como na tabela
+notebook,Notebook,1,30,480,30,,estimativa,Cartilha CEMIG: notebook 30 W,8 h/dia como na tabela
+roteador,Roteador wi-fi,1,10,1440,30,,estimativa,Cartilha CEMIG: roteador 10 W,Fica ligado 24 h
+lampadas,Lâmpada fluorescente compacta 15 W,4,15,300,30,,estimativa,Cartilha CEMIG: fluorescente compacta 15 W,4 lâmpadas acesas 5 h/dia (premissa do grupo)
+ventilador,Ventilador de teto,1,120,240,30,,estimativa,Cartilha CEMIG: ventilador de teto 120 W,4 h/dia (a tabela usa 8 h; ajustamos para 1 morador)
+lavadora,Máquina de lavar roupa,1,500,60,12,,estimativa,Cartilha CEMIG: lavadora de roupas 500 W,1 h por uso e 12 usos/mês como na tabela
+microondas,Forno micro-ondas,1,1200,20,30,,estimativa,Cartilha CEMIG: micro-ondas 1200 W,20 min/dia como na tabela

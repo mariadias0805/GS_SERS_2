@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "categoria": "Documentação",
+        "titulo": "Emitir a Carteira de Trabalho Digital (CTPS)",
+        "palavras_chave": ["carteira de trabalho", "ctps", "trabalho digital", "documento trabalho"],
+        "resposta": "A Carteira de Trabalho Digital é emitida automaticamente pelo CPF. Você pode acessar pelo aplicativo móvel ou site oficial do governo.",
+        "documentos": ["CPF", "Conta gov.br"],
+        "onde": "Aplicativo Carteira de Trabalho Digital ou portal gov.br",
+        "fonte": "https://www.gov.br/trabalho-e-emprego",
+        "verificado_em": "2026-11-05"
+    },
+    {
+        "id": 2,
+        "categoria": "Documentação",
+        "titulo": "Regularizar ou Emitir o CPF",
+        "palavras_chave": ["cpf", "regularizar cpf", "inscricao cpf", "situacao cadastral"],
+        "resposta": "A inscrição ou regularização do CPF pode ser feita online de forma gratuita pelo site da Receita Federal ou em entidades conveniadas.",
+        "documentos": ["Documento de identidade com foto", "Título de eleitor (se maior de 18 anos)"],
+        "onde": "Site da Receita Federal ou unidades de atendimento conveniadas",
+        "fonte": "https://www.gov.br/receitafederal",
+        "verificado_em": "2026-11-05"
+    },
+    {
+        "id": 3,
+        "categoria": "Documentação",
+        "titulo": "Emitir o Título de Eleitor",
+        "palavras_chave": ["titulo de eleitor", "eleitor", "justica eleitoral", "primeiro titulo"],
+        "resposta": "O alistamento eleitoral é obrigatório a partir dos 18 anos e facultativo para jovens de 16 e 17 anos. É feito online pelo portal do Tribunal Superior Eleitoral (TSE).",
+        "documentos": ["Documento de identidade oficial com foto", "Comprovante de residência"],
+        "onde": "Portal do TSE na seção 'Autoatendimento Eleitoral'",
+        "fonte": "https://www.tse.jus.br",
+        "verificado_em": "2026-11-05"
+    },
+    {
+        "id": 4,
+        "categoria": "Documentação",
+        "titulo": "Descobrir o Número do PIS ou NIS",
+        "palavras_chave": ["pis", "nis", "numero pis", "cadastramento social"],
+        "resposta": "O número do PIS/NIS é gerado no primeiro emprego formal. Você pode consultá-lo facilmente pelos aplicativos Caixa Trabalhador, FGTS ou Carteira de Trabalho Digital.",
+        "documentos": ["CPF", "Aplicativo gov.br"],
+        "onde": "Aplicativos Caixa Trabalhador, FGTS ou Carteira de Trabalho Digital",
+        "fonte": "https://www.caixa.gov.br",
+        "verificado_em": "2026-11-05"
+    },
+    {
+        "id": 5,
+        "categoria": "Documentação",
+        "titulo": "Certificado de Alistamento Militar (Reservista)",
+        "palavras_chave": ["alistamento militar", "reservista", "exercito", "militar"],
+        "resposta": "O alistamento militar é obrigatório para todo jovem do sexo masculino no ano em que completa 18 anos. Deve ser feito nos primeiros meses do ano.",
+        "documentos": ["CPF", "Certidão de Nascimento", "Comprovante de residência"],
+        "onde": "Site oficial do Alistamento Militar ou Junta de Serviço Militar",
+        "fonte": "https://www.alistamento.eb.mil.br",
+        "verificado_em": "2026-11-05"
+    },
+    {
+        "id": 6,
+        "categoria": "Trabalho e Contrato",
+        "titulo": "Abrir Conta Corrente ou Poupança Digital para Salário",
+        "palavras_chave": ["conta salario", "banco", "receber salario", "conta digital"],
+        "resposta": "Para receber o salário, o empregador indicará a instituição financeira parceira. O jovem pode solicitar a portabilidade de salário para uma conta de sua preferência sem custos.",
+        "documentos": ["Documento de identidade com foto", "CPF", "Comprovante de residência"],
+        "onde": "Agência bancária indicada pela empresa ou banco digital de preferência",
+        "fonte": "https://www.bcb.gov.br",
+        "verificado_em": "2026-11-05"
+    },
+    {
+        "id": 7,
+        "categoria": "Trabalho e Contrato",
+        "titulo": "Contrato de Trabalho Jovem Aprendiz",
+        "palavras_chave": ["jovem aprendiz", "aprendizagem", "contrato aprendiz", "primeiro emprego"],
+        "resposta": "O programa Jovem Aprendiz é voltado para jovens de 14 a 24 anos incompletos, garantindo formação técnico-profissional e direitos trabalhistas assegurados, com jornada reduzida.",
+        "documentos": ["CPF", "RG", "Declaração escolar (se menor de idade)", "Carteira de Trabalho"],
+        "onde": "Empresas contratantes e instituições qualificadoras parceiras (SENAI, CIEE, etc.)",
+        "fonte": "https://www.gov.br/trabalho-e-emprego",
+        "verificado_em": "2026-11-05"
+    },
+    {
+        "id": 8,
+        "categoria": "Direitos e Benefícios",
+        "titulo": "Direitos Trabalhistas Básicos: Férias e 13º Salário",
+        "palavras_chave": ["ferias", "13 salario", "direitos trabalhistas", "decimo terceiro"],
+        "resposta": "Todo trabalhador com carteira assinada tem direito a 16 dias ou mais de férias remuneradas após 12 meses de trabalho, além do 13º salário pago em duas parcelas ao final do ano.",
+        "documentos": ["Contrato de trabalho", "Holerite"],
+        "onde": "Setor de Recursos Humanos da empresa contratante",
+        "fonte": "https://www.gov.br/trabalho-e-emprego",
+        "verificado_em": "2026-11-05"
+    },
+    {
+        "id": 9,
+        "categoria": "Direitos e Benefícios",
+        "titulo": "FGTS (Fundo de Garantia do Tempo de Serviço)",
+        "palavras_chave": ["fgts", "fundo de garantia", "saque fgts", "deposito fgts"],
+        "resposta": "O empregador deposita mensalmente o valor correspondente a 8% do salário do jovem em uma conta vinculada na Caixa Econômica Federal. O saldo pode ser sacado em situações específicas previstas em lei.",
+        "documentos": ["CPF", "Aplicativo FGTS"],
+        "onde": "Aplicativo FGTS da Caixa Econômica Federal",
+        "fonte": "https://www.caixa.gov.br",
+        "verificado_em": "2026-11-05"
+    },
+    {
+        "id": 10,
+        "categoria": "Trabalho e Contrato",
+        "titulo": "Programa de Estágio e Lei do Estágio",
+        "palavras_chave": ["estagio", "lei do estagio", "estagiario", "ciee"],
+        "resposta": "O estágio é regulamentado pela Lei nº 11.788/2008. Não cria vínculo empregatício, exige matrícula regular em instituição de ensino e prevê bolsa-auxílio e seguro contra acidentes pessoais.",
+        "documentos": ["Termo de Compromisso de Estágio (TCE)", "Comprovante de matrícula escolar"],
+        "onde": "Instituição de ensino, agentes de integração (como CIEE) e empresa concedente",
+        "fonte": "https://www.gov.br/trabalho-e-emprego",
+        "verificado_em": "2026-11-05"
+    }
+]
