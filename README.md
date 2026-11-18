@@ -70,26 +70,25 @@ Python 3 (somente biblioteca padrão: `json`, `csv`, `os`, `time`, `copy`, `unit
 ## Estrutura de pastas
 
 ```
-citizen-assist-ai/
+GS_SERS/
 │
-├── main.py                       
-├── assistente.py                
-├── base_conhecimento.py          
-├── orientacao.py                 
-│
-├── main_sers.py                  
-├── README.md                     
-├── requirements.txt              
-├── .gitignore                    
-│
-├── sers/                        
 ├── data/
-│   ├── base_conhecimento.json    
-│   └── sers/                    
+│
 ├── docs/
-│   └── sers/                     
-└── testes/
-    └── sers/                     
+│   └── sers/
+│
+├── sers/
+│
+├── testes/
+│   └── sers/
+│
+├── README.md
+├── assistente.py
+├── base_conhecimento.py
+├── main.py
+├── main_sers.py
+├── orientacao.py
+└── requirements.txt     
 
 ** ## Uso de IA generativa
 **
