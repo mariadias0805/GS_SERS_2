@@ -12,9 +12,7 @@ Fórmulas principais (todas aparecem em docs/sers/02_calculos_e_comparacao.md):
 """
 import copy
 
-# --------------------------------------------------------------------------
 # 1) Energia de equipamentos
-# --------------------------------------------------------------------------
 
 def kwh_mes(potencia_w, minutos_dia, dias_mes, quantidade=1):
     """Energia mensal de um equipamento: E = P(kW) x horas/dia x dias x quantidade."""
@@ -35,9 +33,7 @@ def consumo_total(equipamentos):
     return sum(consumo_equipamento(eq) for eq in equipamentos)
 
 
-# --------------------------------------------------------------------------
 # 2) Tarifa e custo
-# --------------------------------------------------------------------------
 
 def aliquota_icms(consumo_kwh, params):
     """Alíquota de ICMS pela faixa de consumo mensal (regra de SP, ver parametros.json)."""
@@ -67,9 +63,7 @@ def custo_mensal(consumo_kwh, params, bandeira=None):
     return consumo_kwh * tarifa_com_tributos(consumo_kwh, params, bandeira) + params["cosip_reais"]
 
 
-# --------------------------------------------------------------------------
 # 3) Alternativa A: eficiência energética
-# --------------------------------------------------------------------------
 
 def aplicar_medidas(equipamentos, medidas, ids_das_medidas=None):
     """Devolve uma CÓPIA dos equipamentos com as medidas aplicadas.
@@ -112,9 +106,7 @@ def meses_para_pagar(investimento_reais, economia_reais_mes):
     return investimento_reais / economia_reais_mes
 
 
-# --------------------------------------------------------------------------
 # 4) Alternativa B: energia solar por assinatura (geração compartilhada)
-# --------------------------------------------------------------------------
 
 def disponibilidade_kwh(params):
     """Consumo mínimo faturado (custo de disponibilidade) pelo tipo de ligação."""
@@ -155,18 +147,14 @@ def desconto_para_igualar(economia_alvo_reais_mes, consumo_kwh, params):
     return economia_alvo_reais_mes / (kwh_compensados * tarifa)
 
 
-# --------------------------------------------------------------------------
 # 5) Impacto ambiental
-# --------------------------------------------------------------------------
 
 def emissoes_kg_co2(energia_kwh, params):
     """Emissões associadas a uma energia: kg CO2 = kWh x fator (kg CO2/kWh)."""
     return energia_kwh * params["fator_emissao_kg_co2_kwh"]
 
 
-# --------------------------------------------------------------------------
 # 6) Comparação das alternativas (mesma necessidade, mesmo período)
-# --------------------------------------------------------------------------
 
 def comparar_alternativas(params, equipamentos, medidas, desconto=None):
     """Compara Base, A (eficiência), B (solar por assinatura) e A+B.
